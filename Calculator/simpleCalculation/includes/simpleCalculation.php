@@ -1,6 +1,6 @@
 <?php
 
-class Calculator {
+class SimpleCalculation {
 	public $num1;
 	public $num2;
 	public $cal;
@@ -10,7 +10,7 @@ class Calculator {
 		$this->num2 = $num2;
 		$this->cal = $cal;
 	}
-	public function calculation() {
+	public function simpleCalculation() {
 
 		switch ($this->cal) {
 
